@@ -8,7 +8,7 @@ export const Home = () => {
       <p>
         Fastest Growing and World's Wealthiest Customer Are Welcome And View Your Balance.
       </p>
-      <Button id="btn"><a href="/customer">View All Customer</a></Button>
+      <Button id="btn"><a href="/all-Customer">View All Customer</a></Button>
     </div>
   );
 };

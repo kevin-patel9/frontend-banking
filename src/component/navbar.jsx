@@ -22,7 +22,7 @@ export const NavbarItem = () => {
               <Nav.Link className="nav-link" style={{ color: "rgb(200, 18, 224)" }} href="/">
                 Home
               </Nav.Link>
-              <Nav.Link className="nav-link" style={{ color: "rgb(200, 18, 224)" }} href="/customer">
+              <Nav.Link className="nav-link" style={{ color: "rgb(200, 18, 224)" }} href="/all-Customer">
                 Customer's
               </Nav.Link>
               <Nav.Link

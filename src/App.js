@@ -13,7 +13,7 @@ function App() {
         <NavbarItem />
         <Routes>
           <Route path="/" element={<Home /> } />
-          <Route path="/customer" element={<Customer /> } />
+          <Route path="/all-customer" element={<Customer /> } />
           <Route path="/transaction-history" element={<Transfer /> } />
         </Routes>
       </Router>
