@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 export const NavbarItem = () => {
   return (
     <>
-      <Navbar style={{ backgroundColor: "inherit" }}>
+      <Navbar style={{ backgroundColor: "inherit" }} expand="lg">
         <Container>
           <Navbar.Brand
             style={{
@@ -16,7 +16,7 @@ export const NavbarItem = () => {
           >
             Class Bank
           </Navbar.Brand>
-          {/* <Navbar.Toggle style={{ backgroundColor: "rgb(200, 18, 224)"}} /> */}
+          <Navbar.Toggle style={{ backgroundColor: "rgb(200, 18, 224)"}} />
           <Navbar.Collapse className="justify-content-end">
             <Nav className="ms-4 mt-2" style={{ fontWeight: "700" }}>
               <Nav.Link className="nav-link" style={{ color: "rgb(200, 18, 224)" }} href="/">
