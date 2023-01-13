@@ -1,0 +1,51 @@
+table{
+    margin: auto;
+    color: rgb(37, 37, 37);
+    background-color: rgb(228, 139, 255);
+    width: 88%;
+    border: 1px rgb(255, 179, 255) solid;
+    margin-bottom: 10rem;
+}
+
+th, td {
+    font-size: 1.2rem;
+    padding: 1.4rem;
+}
+
+.loading{
+    color: white;
+    position: absolute;
+    top: 46%;
+    left: 40%;
+}
+
+tr:nth-child(even){
+    background-color: rgb(192, 124, 255);
+}
+tr:nth-child(odd){
+    background-color: rgb(234, 148, 255);
+}
+
+th{
+    color: white;
+    background-color: rgb(136, 0, 148);
+}
+
+.transferContain{
+    display: grid;
+    gap: 2rem;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    place-items: center;
+}
+
+#transferBtn{
+    text-align: center;
+    background-color: rgb(161, 0, 182);
+    border: none;
+}
+
+#transferBtn:hover{
+    background-color: rgb(192, 0, 218);
+}

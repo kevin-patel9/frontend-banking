@@ -1,0 +1,18 @@
+.modalBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    place-items: center;
+    color: rgb(32, 32, 32);
+}
+
+.modalBody h4:nth-child(3) {
+    padding-top: 1rem;
+}
+
+.input{
+    width: 98%;
+    border-radius: .6rem;
+    padding: .1rem;
+    padding-left: .6rem;
+}

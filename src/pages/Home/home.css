@@ -1,0 +1,41 @@
+body{
+    background-image: url("banking-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 200vh;
+}
+
+.intro{
+    color: white;
+    width: 28rem;
+    position: absolute;
+    display: grid;
+    gap: .8rem;
+    top: 38%;
+    left: 10%;
+}
+
+.intro h3{
+    color: rgb(200, 18, 224);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.intro p{
+    font-family: monospace;
+}
+
+#btn{
+    width: 40%;
+    background-color: rgb(161, 0, 182);
+    border: none;
+}
+
+#btn a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 780px) {
+    body{
+        background-size: auto;
+    }
+}
